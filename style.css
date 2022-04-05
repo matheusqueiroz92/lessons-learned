@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 0px;
+    border: 1px solid red;
 }
 
 body { 
@@ -32,11 +32,16 @@ body {
 
 #titulo_licoes {
     padding: 10px 0px 10px 0px;
-    margin-left: -5px;
     text-align: center;
 }
 
 #licoes_container {
     margin-left: 50px;
+    width: 500px;
 }
 
+#titulo-licoes-a-aprender {
+    padding: 10px 0px 10px 0px;
+    margin-left: -5px;
+    text-align: center;
+}
