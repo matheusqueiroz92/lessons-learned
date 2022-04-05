@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -18,12 +18,25 @@ body {
     padding: 20px 0px 20px 0px;
 }
 
-#picture {
+#super_container {
     position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 #minha_foto {
-    border-radius: 100%;
-    margin-top: 102px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#titulo_licoes {
+    padding: 10px 0px 10px 0px;
+    margin-left: -5px;
+    text-align: center;
+}
+
+#licoes_container {
+    margin-left: 50px;
 }
 
