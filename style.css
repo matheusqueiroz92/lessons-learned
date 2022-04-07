@@ -12,14 +12,32 @@ body {
     position: fixed;
     color: white;
     top: 0px;
-    width: 1366px;
+    width: 100%;
     background-color: green;
     text-align: center;
     padding: 20px 0px 20px 0px;
+    text-decoration: none;
+}
+
+#nav_menu li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.item_menu {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.item_menu:hover {
+    color: rgb(39, 61, 39)
 }
 
 #super_container {
-    position: absolute;
     margin-top: 20px;
     margin-left: 30px;
 }
@@ -32,29 +50,27 @@ body {
 
 #titulo_licoes {
     padding: 10px 0px 10px 0px;
-    text-align: center;
 }
 
 #licoes_container {
     margin-top: 50px;
     margin-left: 50px;
-    width: 500px;
+    width: 100%;
+    display: inline-block;
 }
 
 #titulo-licoes-a-aprender {
     padding: 10px 0px 10px 0px;
     margin-left: -5px;
-    text-align: center;
 }
 
 #button-instagram {
     font-size: 14px;
-    position: absolute;
     margin-left: 50px;
     color: white;
     text-decoration: none;
     padding: 10px;
-    width: 130px;
+    width: 200px;
     background-color: red;
     border-radius: 5px;
 }
@@ -75,4 +91,32 @@ body {
 
 #texto_rodape {
     margin-top: 6px;
+}
+
+table.comBordaSimples {
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;
+}
+ 
+table.comBordaSimples td {
+    border: 1px solid black;
+}
+ 
+table.comBordaSimples tr {
+    border: 1px solid black;
+    background: #F0FFF0;
+}
+
+#passagem_sobre_aprendizado {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 150px;
+    right: 10px;
+    background-color: rgb(190, 190, 190);
+}
+
+#paragrafo1 {
+    width: 85%;
+    text-align: justify;
 }
