@@ -59,20 +59,27 @@ body {
     display: inline-block;
 }
 
+#licoes_container.lista_um {
+    display: inline-block;
+}
+
 #titulo-licoes-a-aprender {
     padding: 10px 0px 10px 0px;
     margin-left: -5px;
 }
 
 #button-instagram {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: center;
     margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
     padding: 10px;
-    width: 200px;
+    width: 130px;
     background-color: red;
     border-radius: 5px;
+    display: inline-block;
 }
 
 #button-instagram:hover {
@@ -96,10 +103,12 @@ body {
 table.comBordaSimples {
     border-collapse: collapse; /* CSS2 */
     background: #FFFFF0;
+    margin-top: 30px;
 }
  
 table.comBordaSimples td {
     border: 1px solid black;
+    padding: 5px;
 }
  
 table.comBordaSimples tr {
@@ -114,9 +123,12 @@ table.comBordaSimples tr {
     top: 150px;
     right: 10px;
     background-color: rgb(190, 190, 190);
+    padding: 10px;
+    text-align: justify;
 }
 
 #paragrafo1 {
-    width: 85%;
+    width: 80%;
     text-align: justify;
+    margin-top: 20px;
 }
