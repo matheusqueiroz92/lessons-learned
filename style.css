@@ -1,7 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body { 
@@ -34,7 +34,7 @@ body {
 }
 
 .item_menu:hover {
-    color: rgb(39, 61, 39)
+    color: rgb(39, 61, 39);
 }
 
 #super_container {
@@ -102,7 +102,7 @@ body {
 
 table.comBordaSimples {
     border-collapse: collapse; /* CSS2 */
-    background: #FFFFF0;
+    background: #fffff0;
     margin-top: 30px;
 }
  
@@ -113,7 +113,7 @@ table.comBordaSimples td {
  
 table.comBordaSimples tr {
     border: 1px solid black;
-    background: #F0FFF0;
+    background: #f0fff0;
 }
 
 #passagem_sobre_aprendizado {
